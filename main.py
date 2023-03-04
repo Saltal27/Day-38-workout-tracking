@@ -15,7 +15,7 @@ HEADERS = {
 }
 
 # ---------------------------- GETTING THE EXERCISES INFO ------------------------------- #
-user_exercises = input("Tell what exercises you did today:\n")
+user_exercises = input("Tell me what exercises you did today:\n")
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 exercise_request_body = {
