@@ -51,4 +51,4 @@ for exercise in exercises_list:
     # print(sheety_body_request)
     # print(sheety_response.text)
 
-#i ran for 8 miles, cycled for 20 minutes and swimmed for 1 hour
+# I ran for 8 miles, cycled for 20 minutes and swam for 1 hour
