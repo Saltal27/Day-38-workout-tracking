@@ -20,6 +20,10 @@ user_exercises = input("Tell what exercises you did today:\n")
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 exercise_request_body = {
  "query": user_exercises,
+ "gender": "male",
+ "weight_kg": 85,
+ "height_cm": 187,
+ "age": 21,
 }
 
 response = requests.post(url=exercise_endpoint, json=exercise_request_body, headers=HEADERS)
